@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guessing Game</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header class="header section">
+	<div class="container">
+		<h1>Welcome to my First game</h1>
+		<h2>The Guess Game</h2>
+	</div>
+		<p>Instruction</p>
+		<ul class="instructions">
+		<li>Guess a number between 1 and 20:</li>
+		<li>You would be given a hint, if your guess is too high or too low</li>
+		<li>you can make 10 wrong guesses till game over</li>
+		</ul>
+		<button class="start">Start!</button>
+	</header>
+	<section class="game-section">
+		<div class="game-container">
+			<button class="start-again">Start Again!</button>
+		
+		<h3 class="intro">guess my number!</h3>
+		<p>between(1-20)</p>
+		<p class="message">start guessing...</p>
+		<div class="input-check">
+		<input type="text" class="guess-input">
+		
+		<button class="btn check-guess">check!</button>
+	</div>
+		<p>score: <span class="score">20</span></p>
+		<p>highscore: <span class="highscore"></span></p>
+	</div>
+	</section>
+	<script src="app.js"></script>
+</body>
+</html>
