@@ -46,9 +46,11 @@ else{
   } else if (guess) {
     if (guess < secretNumber) {
       message.textContent = 'Too low!';
+      message.style.color="#fd7c6e";
       score--;
     } else {
       message.textContent = 'Too High!';
+      message.style.color="#fd7c6e";
       score--;
     }
   }
