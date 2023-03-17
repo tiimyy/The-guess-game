@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 *{
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
 }
+
 .hidden{
 	display: none;
 }
@@ -17,7 +20,8 @@
 	font-weight: 2rem;
 	padding: .5rem 0.5rem;
 	background: #00254f;
-	color:#fd7c6e
+	color:#fd7c6e;
+	font-family: 'Press Start 2P', cursive;
 }
 .header{
 	color: #0cbfe9;
@@ -25,16 +29,20 @@
 }
 body{
 	background-color: #00254f;
+	font-family: poppins;
 }
 .start-again
 {
 	color: #fd7c6e;
 	background: #00254f;
-	margin-bottom: 0.2rem;
+	margin-bottom: 1rem;
 	cursor: pointer;
 }
+.intro{
+	font-family: 'Press Start 2P', cursive;
+}
 .game-section{
-	display:;
+
 	justify-content: center;
 	height: 100vh;
 	text-align: center;
@@ -52,7 +60,6 @@ body{
 .game-container h3{
 	text-transform: capitalize;
 	font-weight: 900;
-	font-size: 2rem;
 	padding-bottom: 1.5rem;
 }
 .guess-input{
@@ -61,12 +68,11 @@ body{
 	width: 7rem;
 	color: #fd7c6e;
 	background:#00254f;
-	font-size:2rem;
-
+	
 }
 .message{
 	padding-bottom: 1rem;
-	font-size: 1.5rem;
+	
 }
 .btn{
 	height: 3rem;
